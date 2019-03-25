@@ -6,11 +6,11 @@ public class Main {
         String line = in.nextLine();
         System.out.println("Ваше сообщение:" + line);
         System.out.println("Хотите ввести еще?y/n");
-        String line1 = in.nextLine();
-        if (line1.equals("y")) {
+        line = in.nextLine();
+        if (line.equals("y")) {
             System.out.println("Введите сообщение:");
-            String line2 = in.nextLine();
-            System.out.println("Ваше сообщение:" + line2);
+            line = in.nextLine();
+            System.out.println("Ваше сообщение:" + line);
         }
             in.close();
         }
