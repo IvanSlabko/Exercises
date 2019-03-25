@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Введите сообщение:");
         String line = in.nextLine();
         System.out.println("Ваше сообщение:" + line);
-        System.out.println("Хотите ввести еще?y/n");
+        System.out.println("Хотите ввести еще? y/n");
         line = in.nextLine();
         if (line.equals("y")) {
             System.out.println("Введите сообщение:");
