@@ -9,7 +9,7 @@ public class Main {
             System.out.println("Ваше сообщение:" + line);
             System.out.println("Хотите ввести еще? y/n");
             line = in.nextLine();
-        }while (line.equals("y"));
+         }while (line.equals("y"));
             in.close();
         }
     }
